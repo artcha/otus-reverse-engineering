@@ -1,0 +1,84 @@
+mov ax, ax 	| 89C0 | 8BC0 |
+mov ah, ah	| 88E4 | 8AE4 |
+mov al, al	| 88C0 | 8AC0 |
+
+mov bx, bx	| 89DB | 8BDB |
+mov bh, bh	| 88FF | 8AFF |
+mov bl, bl	| 88DB | 8ADB |
+
+mov dx, dx	| 89D2 | 8BD2 |
+mov dh, dh	| 88F6 | 8AF6 |
+mov dl, dl	| 88D2 | 8AD2 |
+
+mov cx, cx	| 89C9 | 8BC0 |
+mov ch, ch	| 88ED | 8AED |
+mov cl, cl	| 88C9 | 8AC9 |
+
+mov bp, bp	| 89ED | 8BED |
+mov si, si	| 89F6 | 8BF6 |
+mov di, di	| 89FF | 8BFF |
+mov sp, sp	| 89E4 | 8BE4 |
+
+xor ax, ax	| 31C0 | 33C0 |
+xor ah, ah	| 30E4 | 32E4 |
+xor al, al	| 30C0 | 32C0 |
+
+xor bx, bx	| 31DB | 33DB |
+xor bh, bh	| 30FF | 32FF |
+xor bl, bl	| 30DB | 32DB |
+
+xor dx, dx	| 31D2 | 33D2 |
+xor dh, dh	| 30F6 | 32F6 |
+xor dl, dl	| 30D2 | 32D2 |
+
+xor cx, cx	| 31C9 | 33C9 |
+xor ch, ch	| 30ED | 32ED |
+xor cl, cl 	| 30C9 | 32C9 |
+
+xor bp, bp	| 31ED | 33ED |
+xor si, si	| 31F6 | 33F6 |
+xor di, di	| 31FF | 33FF |
+xor sp, sp	| 31E4 | 33E4 |
+
+and ax, ax	| 21C0 | 23C0 |
+and ah, ah	| 20E4 | 22E4 |
+and al, al	| 20C0 | 22C0 |
+
+and bx, bx	| 21DB | 23DB |
+and bh, bh	| 20FF | 22FF |
+and bl, bl	| 20DB | 22DB |
+
+and dx, dx	| 21D2 | 23D2 |
+and dh, dh	| 20F6 | 22F6 |
+and dl, dl	| 20D2 | 22D2 |
+
+and cx, cx	| 21C9 | 23C9 |
+and ch, ch	| 20ED | 22ED |
+and cl, cl	| 20C9 | 22C9 |
+
+and bp, bp	| 21ED | 23ED |
+and si, si	| 21F6 | 23F6 |
+and di, di	| 21FF | 23FF |
+and sp, sp	| 21E4 | 23E4 |
+
+or ax, ax	| 09C0 | 0BC0 |
+or ah, ah	| 08E4 | 0AE4 |
+or al, al	| 08C0 | 0AC0 |
+
+or bx, bx	| 09DB | 0BDB | 
+or bh, bh	| 08FF | 0AFF |
+or bl, bl	| 08DB | 0ADB |
+
+or dx, dx	| 09D2 | 0BD2 |
+or dh, dh	| 08F6 | 0AF6 |
+or dl, dl	| 08D2 | 0AD2 |
+
+or cx, cx	| 09C9 | 0BC9 |
+or ch, ch	| 08ED | 0AED |
+or cl, cl	| 08C9 | 0AC9 |
+
+or bp, bp	| 09ED | 0BED |
+or si, si	| 09F6 | 0BF6 |
+or di, di	| 09FF | 0BFF |
+or sp, sp	| 09E4 | 0BE4 |
+
