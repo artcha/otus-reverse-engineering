@@ -1,2 +1,0 @@
-messagebox.exe - исходный файл с один messagebox
-messagebox.exe_ - решение через jmp
