@@ -22,7 +22,7 @@ bool prepare_login(char *login) {
             successful = false;
         }
 
-        *login++;
+        login++;
     }
 
     return successful;
@@ -33,7 +33,7 @@ int32_t compute_login_hash(char *login) {
 
     while (*login) {
         result += *login;
-        *login++;
+        login++;
     }
     
     return result ^ 0x5678;
