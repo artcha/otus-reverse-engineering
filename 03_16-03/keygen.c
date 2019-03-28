@@ -28,8 +28,8 @@ bool prepare_login(char *login) {
     return successful;
 }
 
-int32_t compute_login_hash(char *login) {
-    int32_t result = 0;
+uint32_t compute_login_hash(char *login) {
+    uint32_t result = 0;
 
     while (*login) {
         result += *login;
@@ -39,7 +39,7 @@ int32_t compute_login_hash(char *login) {
     return result ^ 0x5678;
 }
 
-int32_t compute_passw(int32_t login_hash) {
+uint32_t compute_passw(uint32_t login_hash) {
     return login_hash ^ 0x1234;
 }
 
@@ -65,7 +65,7 @@ int main() {
         exit(1);
     }
 
-    int32_t login_hash = compute_login_hash(login);
+    uint32_t login_hash = compute_login_hash(login);
     //printf("login hash: %d\n", login_hash);
     printf("password: %d\n", compute_passw(login_hash));
 }
